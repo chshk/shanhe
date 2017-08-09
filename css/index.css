@@ -1,0 +1,325 @@
+----------------------------------格式化 start--------------------------------------*/
+* {
+  margin: 0px;
+  padding: 0px;
+}
+/*版心*/
+.bx {
+  width: 980px;
+  margin: 0 auto;
+}
+/*列表格式化*/
+ul {
+  list-style: none;
+  margin: 0px;
+  padding: 0px;
+}
+/*表单格式化*/
+input {
+  border:none;
+  outline: none;
+}
+a {
+  text-decoration: none;
+}
+p {
+   margin: 0px;
+  padding: 0px;
+}
+h2 {
+  margin: 0px;
+  padding: 0px;
+}
+.clear  {
+  clear: both;
+}
+/*----------------------------------格式化 end--------------------------------------*/
+
+/*-------------------------------------网页头部 start---------------------------------------*/
+.header {
+  height: 117px;
+  background: url(../images/head_bg.png) repeat;
+}
+/*---------------------top start------------------*/
+.h-top {
+  height: 43px;
+  padding-top: 20px;
+}
+/*logo*/
+h1 {
+  font-size: 0px;
+}
+.logo {
+  float: left;
+}
+/*搜索框*/
+.search {
+  width: 200px;
+  height: 30px;
+  background: green;
+  float: right;
+}
+/*输入栏*/
+.header .bx .h-top .search .txt {
+  width: 156px;
+  height: 30px;
+  padding-left: 11px;
+  background: url(../images/input_r1_c1.png);
+  float: left;
+}
+/*搜索按钮*/
+.header .bx .h-top .search .btn {
+  width: 33px;
+  height: 30px;
+  background: url(../images/input_r1_c2.png);
+  float: left;
+  cursor: pointer;
+}
+/*---------------------top end------------------*/
+
+/*---------------------nav start-----------------*/
+.header .bx .nav ul{
+  height: 54px;
+  margin: 0px;
+  padding: 0px;
+}
+.header .bx .nav ul li a {
+  height: 54px;
+  width: 128px;
+  font-size: 14px;
+  color: #000;
+  font-weight: 700;
+  line-height: 54px;
+  background: url(../images/nav_bg.png) no-repeat right;
+  text-align: center;
+  float: left;
+}
+.header .bx .nav ul li a:hover {
+  font-size: 18px;
+}
+/*---------------------nav end -----------------*/
+
+/*-------------------------------------网页头部 end---------------------------------------*/
+
+
+/*-------------------------------------图片区 start-----------------------------------------*/
+.mid .bx {
+  text-align: center;
+}
+.mid .bx>ul {
+  width: 34px;
+  margin: 0px auto;
+  overflow: hidden;
+}
+.mid .bx>ul>li {
+  height: 12px;
+  width: 12px;
+  font-size: 0px;
+  border-radius: 6px;
+  background: #ced2db;
+  cursor: pointer;
+  float: left;
+}
+.mid .bx>ul>li a{
+  height: 12px;
+  width: 12px;
+  border-radius: 6px;
+  display: block;
+}
+.mid .bx>ul>li+li {
+  margin-left: 10px;
+}
+.mid .bx>ul>li a:hover {
+  background: #646c77;
+}
+/*-------------------------------------图片区 end -----------------------------------------*/
+
+
+/*-------------------------------------网站告示 start -------------------------------------*/
+.gaoshi {
+  height: 30px;
+  border-bottom: 1px solid #efefef;
+  border-top: 1px solid #efefef;
+  margin-top: 30px;
+}
+.gaoshi .bx p{
+  height: 30px;
+  font-size: 14px;
+  line-height: 30px;
+  float: left;
+}
+.gaoshi .bx  ul {
+  width: 90px;
+  height: 17px;
+  margin-top: 6px;
+  float: right;
+}
+.gaoshi .bx ul li{
+  width: 17px;
+  height: 17px;
+  background: green;
+  float: left;
+}
+.gaoshi .bx ul li+li {
+  margin-left: 7px;
+}
+.gaoshi .bx ul li.kj {
+  background:url(../images/share.png) no-repeat;
+}
+.gaoshi .bx ul li.xl {
+  background:url(../images/share.png) no-repeat  -23px 0px ;
+}
+.gaoshi .bx ul li.wb {
+  background:url(../images/share.png) no-repeat -47px 0px;
+}
+.gaoshi .bx ul li.jia {
+  background:url(../images/share.png) no-repeat -70px 0px;
+}
+.gaoshi .bx ul li a{
+  width: 17px;
+  height: 17px;
+  font-size: 0px;
+  display: block;
+}
+/*-------------------------------------网站告示 end  -------------------------------------*/
+
+
+
+/*-------------------------------------网站展示区 start ----------------------------------*/
+
+.zsq .bx .content>li{
+  padding-top: 17px;
+}
+.zsq .bx .content .xpfb {
+  width: 315px;
+  height: 217px;
+  border: 1px solid #e4e4e4;
+}
+/*三个盒子标题样式*/
+.zsq .bx .content li h2 {
+  height: 16px;
+  font-size: 14px;
+  color: #7ab800;
+  padding-left: 30px;
+  background: url(../images/news_bg.png) no-repeat 7px 2px;
+}
+.zsq .bx .content li .tp {
+  margin: 8px ;
+  text-align: center;
+  position: relative;
+}
+
+/*左右箭头*/
+.zsq .bx .content li .tp span {
+  font: 34px "宋体";
+  margin-top: -17px;
+}
+.zsq .bx .content li .tp span.tp-l {
+  position: absolute;
+  left: 0px;
+  top: 50%;
+}
+.zsq .bx .content li .tp span.tp-r {
+  position: absolute;
+  right: 0px;
+  top: 50%;
+}
+.zsq .bx .content li .tp span a {
+  color: #7ab800;
+}
+/*三个盒子位置布置*/
+.zsq .bx .content>li {
+  float: left;
+  margin-top: 17px;
+}
+.zsq .bx .content>li+li {
+  margin-left: 14px;
+}
+/*第二个盒子 新闻中心样式*/
+.zsq .bx .content .xwzx {
+  width: 370px;
+  height: 217px;
+  border: 1px solid #e4e4e4;
+}
+.zsq .bx .content .xwzx>ul {
+  margin-top: 10px;
+}
+.zsq .bx .content .xwzx ul li {
+  width: 327px;
+  height: 28px;
+  line-height: 28px;
+  font-size: 12px;
+  margin:0px auto;
+  border-bottom: 1px dashed #dcdcdc;
+}
+.zsq .bx .content .xwzx ul li>a {
+  color: #666666;
+}
+.zsq .bx .content .xwzx ul li a strong {
+  color: red;
+}
+/*第三个盒子 技术与支持*/
+.zsq .bx .content .jszc {
+  width: 260px;
+  height: 217px;
+  border: 1px solid #e4e4e4;
+}
+.zsq .bx .content .jszc ul li {
+  height: 20px;
+  line-height: 20px;
+  font-size: 12px;
+  padding-left: 36px;
+  background: url(../images/li.fw.png) no-repeat 28px 5px;
+}
+.zsq .bx .content .jszc>ul {
+  margin-top: 10px;
+}
+.zsq .bx .content .jszc ul li a{
+  color: #666;
+}
+/*地址及联系方式*/
+.zsq .bx .content .jszc .dizhi {
+  margin-top: 36px;
+  font-size: 12px;
+  line-height: 24px;
+  color: #666;
+  text-align: center;
+}
+/*-------------------------------------网站展示区 end ----------------------------------*/
+
+
+/*------------------------------------网站尾部 start---------------------------------------*/
+/*自定义菜单样式*/
+* {
+  margin: 0px;
+  padding: 0px;
+}
+.footer {
+  background: #2d2d2d url(../images/foot_bg.png) repeat-x  ;
+  margin-top: 50px;
+}
+.footer .bx>ul>li {
+width: 108px;
+float: left;
+}
+.footer .bx ul li dl dt {
+  height: 56px;
+  line-height: 56px;
+  font-size: 14px;
+}
+.footer .bx ul li dt>a {
+  color: #c7c7c7;
+}
+.footer .bx ul li dd>a {
+  font-size: 12px;
+  color: #707070;
+}
+/*注释*/
+.footer .zhushi {
+  margin-top: 60px;
+  font-size: 12px;
+  line-height: 28px;
+  text-align: center;
+  border-top: 1px dashed #414141;
+}
+/*------------------------------------网站尾部 end---------------------------------------*/
